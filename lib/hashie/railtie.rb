@@ -10,5 +10,5 @@ begin
     end
   end
 rescue LoadError => e
-  Hashie.logger.info("Hashie skipping railtie as #{e.message}")
+  # must be on an older version of rails
 end
